@@ -1,0 +1,13 @@
+:root {
+  min-height: 100vh;
+  max-width: 1280px;
+  margin: 0;
+  font-family: "Raleway", "Quicksand", sans-serif;
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0 !important;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+}
