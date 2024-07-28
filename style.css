@@ -81,6 +81,11 @@ nav ul li a {
   }
 }
 
+.main-content {
+  /* This is to make space for footer. */
+  padding-bottom: 56px;
+}
+
 .banner {
   display: flex;
   justify-content: center;
@@ -115,6 +120,56 @@ nav ul li a {
 
 .banner .heading small {
   font-size: 24px;
+}
+
+.main-text {
+  font-size: 18px;
+  padding: 32px;
+}
+
+.sub-text {
+  display: flex;
+}
+
+.sub-text div {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.sub-text .red{
+  background-color: #ff6363;
+}
+
+.sub-text .yellow{
+  background-color: #f0af00;
+}
+
+.sub-text .green{
+  background-color: #1eb279;
+}
+
+.quote{
+  display: block;
+  background-color: #eeeeee;
+  padding: 50px;
+  text-align: center;
+  font-style: italic;
+}
+
+.quote::before{
+  display: inline-block;
+  content: open-quote;
+  color: #d3d3d3;
+  font-size: 32px;
+}
+
+.quote::after{
+  display: inline-block;
+  content: close-quote;
+  color: #d3d3d3;
+  font-size: 32px;
 }
 
 .footer {
