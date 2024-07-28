@@ -150,6 +150,71 @@ nav ul li a {
   background-color: #1eb279;
 }
 
+/* Projects */
+.projects-container h3.title{
+  font-size: 24px;
+  padding: 12px;
+  margin: 6px;
+  border-top: 3px solid #dddddd;
+  border-bottom: 3px solid #dddddd;
+  
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project {
+  flex-basis: 275px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  background-color: #f7f7f7;
+
+}
+
+.project:hover {
+  transform: scale(105%);
+  /* opacity: 0.8; */
+}
+
+.project h4 {
+  font-size: 20px;
+  padding: 12px;
+  margin: 6px;
+  border-top: 3px solid #dddddd;
+  border-bottom: 3px solid #dddddd;
+}
+
+.project p {
+  padding: 0px 12px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+  
+}
+
+.project button {
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 12px;
+}
+
+.project button:hover {
+  background-color: #45a049;
+}
+
 .quote{
   display: block;
   background-color: #eeeeee;
