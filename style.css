@@ -91,12 +91,26 @@ nav ul li a {
   background-size: cover;
 }
 
+@keyframes appear {
+  from {
+    opacity: 0;
+    top: -100px
+  }
+
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
 .banner .heading {
+  position: relative;
   flex: 1;
   text-align: center;
   color: #ffffff;
   font-size: 3.5em;
   font-weight: bold;
+  animation: appear 1s ease-in-out 0s forwards;
 }
 
 .banner .heading small {
