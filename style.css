@@ -21,7 +21,7 @@ nav{
 nav .logo {
   display: flex;
   align-items: center;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 nav .logo img {
@@ -74,4 +74,15 @@ nav ul li a {
     /* Below padding is to override the browser's user-agent-stylesheet */
     padding: 0px 10px;
   }
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #222222;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
 }
